@@ -1,0 +1,28 @@
+body {
+    background: #f7f8fc;
+}
+
+.result-card {
+    min-height: 600px;
+}
+
+.output-box {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 16px;
+    min-height: 90px;
+    white-space: pre-wrap;
+}
+
+.generated-image {
+    max-width: 100%;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.history-image {
+    max-height: 280px;
+    object-fit: cover;
+    margin-top: 10px;
+}
